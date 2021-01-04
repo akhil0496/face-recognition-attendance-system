@@ -1,6 +1,9 @@
 # face-recognition-attendance-system
 
-basics python implementations
+The HOG (Histogram of Gradients) is a straightforward feature extraction process that was developed with the idea of identifying real world entities such as human, objects, buildings, vehicles, pedestrians within images.
+
+
+Basics python implementations
 
 First we will find the faces in our images . This is done using HOG (Histogram of Oriented Gradients) at the backend.
 Once we have the face they are warped to remove unwanted rotations. Then the image is feed to a pretrained neural network that out puts 128 measurements that are unique to that particular face. The parts that the model measures is not known as this is what the model learns by itself when it was trained.
